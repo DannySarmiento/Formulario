@@ -10,11 +10,11 @@ body {
 }
 
 .form-registro {
-    width: 400px;
+    width: 800px;
     background: #24303c;
     padding: 30px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 200px;
     border-radius: 4px;
     font-family: 'calibri';
     color: white;
@@ -27,9 +27,9 @@ body {
 }
 
 .controls {
-    width: 250px;
+    width: 200px;
     background: #24303c;
-    padding: 15px;
+    padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
     border: 1px solid #1f53c5;
@@ -64,4 +64,22 @@ body {
     margin: 16px 0;
     font-size: 16px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .form-registro {
+        width: 100px;
+    }
+}
+
+#number {
+    width: 250px;
+    background: #24303c;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
 }

@@ -13,25 +13,94 @@
     <section class="form-registro">
         <h4>Formulario de Registro</h4>
         <input class="controls" type="text" name="nombre" id="nombres" placeholder="Ingrese su Nombre">
-        <br>
-
         <input class="controls" type="text" name="apellido" id="apellidos" placeholder="Ingrese su Apellido">
         <br>
 
-        <input class="controls" type="text" name="usuario" id="usuarios" placeholder="Ingrese su Usuario">
+        <p>Seleccione Orientacion Sexual</p>
+
+        <input type="radio" class="sexo" name="sexo" id="sexos" placeholder="Seleccione su Sexo" value="hombre"> Masculino
+        <input type="radio" class="sexo" name="sexo" id="sexos" placeholder="Seleccione su Sexo" value="femenino"> Femenino
+        <input type="radio" class="sexo" name="sexo" id="sexos" placeholder="Seleccione su Sexo" value="otro"> Otro
+        <p>¿Cuentanos que te Gusta?</p>
+        <input type="checkbox"> Musica
+        <input type="checkbox"> Artes
+        <input type="checkbox"> Deportes
+        <br>
+        <br>
+        <p align="right">Ingresa tu Edad</p>
+        <input align="right" class="controls" type="number" id="numero" name="numeros" placeholder="Edad">
+        <p>Fecha de Nacimiento</p>
+        <input type="date" id="date" name="date" class="controls">
+        <br>
+        <br>
+        <textarea name="mensaje" id="mensajes" cols="30" class="controls" rows="10" placeholder="Dejanos tu comentario."></textarea>
+        <br>
         <br>
 
         <input class="controls" type="email" name="correo" id="correos" placeholder="Ingrese su Correo">
-        <br>
-
         <input class="controls" type="password" name="clave" id="claves" placeholder="Ingrese su Clave">
         <br>
-        <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a>
-        </p>
 
-        <input align=center class="botons" type="submit" value="Registrar">
+        <p>Pais de Nacimiento: <select name="pais" id="paises" class="controls"></p>
+            <option value="#">Seleccione</option>
+            <option value="#">Asia</option>
+            <option value="#">Alemania</option>
+            <option value="#">Bahamas</option>
+            <option value="#">Barbados</option>
+            <option value="#">Cabo Verde</option>
+            <option value="#">Canadá</option>
+            <option value="#">Catar</option>
+            <option value="#">Colombia</option>
+            <option value="#">Dinamarca</option>
+            <option value="#">Ecuador</option>
+            <option value="#">Egipto</option>
+            <option value="#">El Salvador</option>
+            <option value="#">Emirates Árabes Unidos</option>
+            <option value="#">Francia</option>
+            <option value="#">Filipinas</option>
+            <option value="#">Finlandia</option>
+            <option value="#">Grecia</option>
+            <option value="#">Guatemala</option>
+            <option value="#">Haití</option>
+            <option value="#">Hungría</option>
+            <option value="#">India</option>
+            <option value="#">Iran</option>
+            <option value="#">Japón</option>
+            <option value="#">Jamaica</option>
+            <option value="#">Kenia</option>
+            <option value="#">Kirguistán</option>
+            <option value="#">Liberia</option>
+            <option value="#">Líbano</option>
+            <option value="#">Madagasca</option>
+            <option value="#">Marruecos</option>
+            <option value="#">Nigeria</option>
+            <option value="#">Noruega</option>
+            <option value="#">Oman</option>
+            <option value="#">Panamá</option>
+            <option value="#">Pakistan</option>
+            <option value="#">Katar</option>
+            <option value="#">Rumania</option>
+            <option value="#">Roma</option>
+            <option value="#">Senegal</option>
+            <option value="#">Suiza</option>
+            <option value="#">Tanzania</option>
+            <option value="#">Tíbet</option>
+            <option value="#">Ucrania</option>
+            <option value="#">Estados Unidos</option>
+            <option value="#">Venezuela</option>
+            <option value="#">Vietnam</option>
+            <option value="#">Zambia</option>
+            <option value="#">Zimbabue</option>
 
-        <p><a href="#">¿Ya tengo una cuenta?</a></p>
+        </select>
+            <br>
+
+            <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a>
+            </p>
+
+            <input align=center class="botons" type="submit" value="Registrar">
+
+            <p><a href="#">¿Ya tengo una cuenta?</a></p>
 
     </section>
 </body>
